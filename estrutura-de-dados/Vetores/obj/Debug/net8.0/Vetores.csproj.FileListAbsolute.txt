@@ -1,0 +1,15 @@
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/bin/Debug/net8.0/Vetores
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/bin/Debug/net8.0/Vetores.deps.json
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/bin/Debug/net8.0/Vetores.runtimeconfig.json
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/bin/Debug/net8.0/Vetores.dll
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/bin/Debug/net8.0/Vetores.pdb
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/Vetores.GeneratedMSBuildEditorConfig.editorconfig
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/Vetores.AssemblyInfoInputs.cache
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/Vetores.AssemblyInfo.cs
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/Vetores.csproj.CoreCompileInputs.cache
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/Vetores.sourcelink.json
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/Vetores.dll
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/refint/Vetores.dll
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/Vetores.pdb
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/Vetores.genruntimeconfig.cache
+/home/antony/Desktop/github/estudos/estrutura-de-dados/Vetores/obj/Debug/net8.0/ref/Vetores.dll
