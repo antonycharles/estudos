@@ -3,6 +3,7 @@
 <p>Um vetor (ou array) é a estrutura de dados mais simples que existe. 
 Um vetor armazena uma sequêmcia de valores onde todos são do mesmo tipo.</p>
 <p>Uma vez que cada variáveis têm o mesmo nome, o que as distingue é um índice, que referencia sua localização dentro da estrutura.</p>
+<p>Normalmente, um vetor é a encapsulação de um array com uma série de métodos que permitem controlar esse array de uma forma mais dinâmica.</p>
 
 
 ```
