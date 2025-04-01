@@ -5,18 +5,18 @@ using System.Threading.Tasks;
 
 namespace Vetores
 {
-    public class Vetor
+    public class Vetor<T>
     {
-        private string[] elementos;
+        private T[] elementos;
         private int tamanho;
 
         public Vetor(int capacidade)
         {
-            this.elementos = new string[capacidade];
+            this.elementos = new T[capacidade];
             this.tamanho = 0;
         }
 
-        public void Adiciona(string elemento){
+        public void Adiciona(T elemento){
             aumentaCapacidade();
             if(this.tamanho < this.elementos.Length){
                 this.elementos[this.tamanho] = elemento;
@@ -26,7 +26,7 @@ namespace Vetores
             }
         }
 
-        public void Adiciona(int posicao, string elemento){
+        public void Adiciona(int posicao, T elemento){
             aumentaCapacidade();
             if(posicao > this.tamanho || posicao < 0)
                 throw new Exception("Posíção inválida");
@@ -39,11 +39,21 @@ namespace Vetores
             this.tamanho++;
         }
 
+        public void Remove(int posicao){
+            if(posicao >= this.tamanho || posicao < 0)
+                throw new Exception("Posição inválida");
+
+            for(int i = posicao; i < this.tamanho-1;i++)
+                this.elementos[i] = this.elementos[i+1];
+
+            this.tamanho--;
+        }
+
         private void aumentaCapacidade(){
             if(this.tamanho+1 <= this.elementos.Length)
                 return;
 
-            var novoElemento = new string[this.elementos.Length + 1];
+            var novoElemento = new T[this.elementos.Length + 1];
 
             for(var i = 0; i < this.elementos.Length;i++)
                 novoElemento[i] = this.elementos[i];
@@ -51,9 +61,9 @@ namespace Vetores
             this.elementos = novoElemento;
         }
 
-        public int BuscaPosicao(string elemento){
+        public int BuscaPosicao(T elemento){
             for(int i = 0; i < this.tamanho; i++){
-                if(this.elementos[i] == elemento){
+                if(this.elementos[i].Equals(elemento)){
                     return i;
                 }
             }
@@ -61,7 +71,16 @@ namespace Vetores
             return -1;
         }
 
-        public string Busca(int posicao){
+        public bool Contains(T elemento){
+            for(int i = 0; i < this.tamanho; i++){
+                if(this.elementos[i].Equals(elemento))
+                    return true;
+            }
+
+            return false;
+        }
+
+        public T Busca(int posicao){
             if(posicao < 0 || posicao >= this.tamanho){
                 throw new Exception("Posição inválida.");
             }
