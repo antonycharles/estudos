@@ -1,5 +1,5 @@
 # Vetores
-
+![Image](https://github.com/user-attachments/assets/9a927749-7b86-405d-b34e-bf55f1a1d713)
 <p>Um vetor (ou array) é a estrutura de dados mais simples que existe. 
 Um vetor armazena uma sequêmcia de valores onde todos são do mesmo tipo.</p>
 <p>Uma vez que cada variáveis têm o mesmo nome, o que as distingue é um índice, que referencia sua localização dentro da estrutura.</p>
